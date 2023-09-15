@@ -10,7 +10,7 @@ const connectDB = async () => {
         mongoose.createConnection('mongodb://localhost:27017/blogApp') 
         console.log('Mongo connected')
     } catch(error) {
-        console.log('error while connecting'+ error.message)
+        console.log('error  on it while connecting'+ error.message)
         process.exit()
     }
 };
